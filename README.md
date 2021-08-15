@@ -27,6 +27,26 @@ Spring Boot Practice by making simple board.
     + MyBatis Framework 
   - ![start spring io_](https://user-images.githubusercontent.com/41232056/128606296-89d3dce3-bc8f-4f87-a70b-7e7f4939e052.png)
 
+## Spring
+* Annotation
+  - @RequiredArgsConstructor ?
+  - @Service, @Controller, @Repository 정확한 역할?
+    + Controller -> Service -> Repository
+  - @Transactional
+  - @GetMapping(), @PostMapping(), @PutMapping(), @DeleteMapping()
+* Model(org.springframework.ui.Model) 역할
+  - HashMap 형태의 객체
+  - View로 데이터를 넘겨줄 수 있게 하는 역할
+  - Model.addAttribute("view에서 불러올 데이터의 값 == Key 값", "Key 값을 호출했을 때의 Value 값") 처럼 사용
+
+## MyBatis
+* Interface의 메소드 명 == xml의 id 명
+
+## Thymeleaf
+* [[${}]]
+  - Model 객체에 있는 key를 불러오며 값을 출력하는 역할
+* 문법 공식 doc
+  - https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#standard-expression-syntax
 
 ## Trouble Shooting
 * compile() vs implementation 관련 글
