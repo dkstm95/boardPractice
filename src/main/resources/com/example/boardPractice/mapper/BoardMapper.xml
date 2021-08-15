@@ -10,4 +10,13 @@
         SELECT * FROM tbl_board;
     </select>
 
+    <select id="getBoard" parameterType="Long" resultType="com.example.boardPractice.domain.Board">
+        SELECT
+            *
+        FROM
+            tbl_board
+        WHERE
+            boardId=#{boardId};
+    </select>
+
 </mapper>

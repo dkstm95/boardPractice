@@ -11,4 +11,6 @@ public interface BoardMapper {
     int boardCount();
 
     List<Board> getList();
+
+    Board getBoard(Long boardId);
 }
