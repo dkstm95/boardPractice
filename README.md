@@ -1,5 +1,6 @@
 # boardPractice
 Spring Boot Practice by making simple board.
+And I'm going to change MyBatis to a JPA.
 
 ## 참고 블로그
 * https://tjdans.tistory.com/7?category=992472
